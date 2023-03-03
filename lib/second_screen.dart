@@ -57,25 +57,3 @@ class SecondScreen extends StatelessWidget {
         onTap: () {});
   }
  }
-//      Center(
-//         child: Column(
-//           children: <Widget>[
-//             const Padding(
-//               child:  Text(
-//                 'قطع غيار السيارة ',
-//                 style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.0),
-//                 textAlign: TextAlign.center,
-//               ),
-//               padding: EdgeInsets.only(bottom: 20.0),
-//             ),
-//             Padding(
-//               child: Image.network(widget.value.imageUrl),
-//               padding: const EdgeInsets.all(12.0),
-//             ),
-//             CustomText(text:'NAME : ${widget.value.partName}',),
-//             CustomText(text:'Country : ${widget.value.partPrice}',)
-//           ],   ),
-//       ),
-//     );
-//   }
-// }
